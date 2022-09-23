@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.background {
+  background: url("https://th.bing.com/th/id/OIP.WBEn4D__MFBTZzwuDU5YHwHaHa?w=170&h=180&c=7&r=0&o=5&dpr=1.25&pid=1.7");
+  position: absolute;
+  top: -20px;
+  bottom: -20px;
+  left: -20px;
+  right: -20px;
+  z-index: -1;
+  filter: blur(20px);
+}
+
+#form {
+  border-radius: 25px;
+  background-color: darkgray;
+}
+#email {
+  border-radius: 10px;
+  width: 370px;
+}
+#password {
+  border-radius: 10px;
+  width: 370px;
+}
+#submit {
+  border-radius: 20px;
+  width: 200px;
+}
